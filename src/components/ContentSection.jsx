@@ -13,10 +13,9 @@ export default function ContentSection() {
   }, []);
 
   const items = [
-    { id: 1, title: "Item 1", subtitle: "LOREM" },
-    { id: 2, title: "Item 2", subtitle: "LOREM" },
-    { id: 3, title: "Item 3", subtitle: "LOREM" },
-    { id: 4, title: "Item 4", subtitle: "LOREM" },
+    { id: 1, title: "Item 1", subtitle: "Simple dot loader", link: "http://localhost:3000/Loader1" },
+    { id: 2, title: "Item 2", subtitle: "Simple spinner loader", link: "http://localhost:3000/Loader2" },
+    { id: 3, title: "Item 3", subtitle: "Fun animated SVG", link: "http://localhost:3000/Loader3" },
   ];
 
   // Parallax effect - content moves slower than scroll
@@ -43,7 +42,7 @@ export default function ContentSection() {
                 {items.map((item, index) => (
                   <div key={item.id}>
                     <a
-                      href="#"
+                      href={item.link || "#"}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-between py-4 group hover:opacity-80 transition-opacity"
