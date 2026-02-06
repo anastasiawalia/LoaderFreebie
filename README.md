@@ -1,5 +1,8 @@
 # Loading Animation Freebie
 
+![Frame 2](https://github.com/user-attachments/assets/2c8d61eb-4e46-4966-91e8-8ab3d1f42c96)
+
+
 A React web application featuring an interactive hero page with a Three.js particle animation background. The page includes a beautiful hero section with Tailwind CSS styling and an animated particle system that responds to user interaction.
 
 ## Prerequisites
